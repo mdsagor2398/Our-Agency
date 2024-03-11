@@ -1,0 +1,1324 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+body {
+    background-color: #00113B;
+}
+
+
+
+.nav-section {
+    padding-bottom: 90px;
+}
+
+
+header {
+    background-color: #00113B;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: absolute;
+    z-index: 100;
+}
+
+.logo h1 {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    padding: 5px 9px;
+    border: solid 1px #A8FE3B;
+    background-color: #A8FE3B;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-right: 120px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    transition: .3s all;
+
+
+}
+
+nav a:hover {
+    color: #eb4d4b;
+}
+
+
+input {
+    display: none;
+}
+
+.ui-btn p {
+    padding: 12px 24px;
+    border: solid 1px #A8FE3B;
+    background-color: #A8FE3B;
+    color: #000;
+    font-size: 18px;
+}
+
+
+.nav-section {
+    display: none;
+}
+
+/* Nav only tablet responsiv start*/
+
+.nav_only_tablet {
+    display: block;
+}
+
+.nav_tablet_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav_tablet_logo h2 {
+    padding: 5px 9px;
+    background-color: #A8FE3B;
+    color: black;
+}
+
+.nav_tablet_link {
+    display: flex;
+    gap: 48px;
+}
+
+.nav_tablet_link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_tablet_btn p {
+    padding: 10px 20px;
+    border: solid 1px #A8FE3B;
+    background-color: #A8FE3B;
+    color: black;
+    font-weight: 500;
+}
+
+.first_hr_line {
+    max-width: 100%;
+    min-height: .5px;
+    background-color: #141f4b;
+}
+
+
+
+
+/* Nav only tablet responsiv start*/
+
+
+
+
+/* HERO style Start*/
+
+.hero-section-1 {
+    background-color: #00113B;
+
+}
+
+.hero-text {
+    position: relative;
+    max-width: 884px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 28px;
+
+}
+
+.main-header {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.15625em;
+    color: #fff;
+}
+
+span {
+    color: #A8FE3B;
+}
+
+.hero-p {
+    font-size: 20px;
+    color: #BFBFBF;
+    padding-top: 20px;
+}
+
+.hero-p-2 {
+    font-size: 20px;
+    color: #BFBFBF;
+    padding-top: 8px;
+    padding-bottom: 48px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.start {
+    position: relative;
+    padding: 14px 66px 14px 32px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7777777777777777em;
+    background-color: #A8FE3B;
+    color: #111111;
+    border: solid 1px #A8FE3B;
+}
+
+#color-arrow {
+    position: absolute;
+    right: 980px;
+}
+
+#white-arrow {
+    position: absolute;
+    right: 740px;
+    color: #A8FE3B;
+}
+
+.demo {
+    padding: 14px 66px 14px 32px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7777777777777777em;
+    background-color: #00113B;
+    color: #A8FE3B;
+    border: solid 1px #A8FE3B;
+}
+
+.animation-1 img {
+    position: absolute;
+    top: 164px;
+    left: 420px;
+
+}
+
+.animation-2 img {
+    position: absolute;
+    bottom: 487px;
+    right: 376px;
+
+}
+
+.slider_wrapper {
+    overflow: hidden;
+}
+
+/* HERO style end*/
+
+
+.project-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.first {
+    text-align: center;
+}
+
+.first h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.15625em;
+    color: #fff;
+
+}
+
+.first p {
+    font: 24px;
+    color: #ffff;
+    padding-top: 24px;
+}
+
+.second {
+    text-align: center;
+}
+
+.second h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.15625em;
+    color: #fff;
+
+}
+
+.second p {
+    font: 24px;
+    color: #ffff;
+    padding-top: 24px;
+}
+
+.thard {
+    text-align: center;
+}
+
+.thard h1 {
+
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.15625em;
+    color: #fff;
+
+}
+
+.thard p {
+    font: 24px;
+    color: #ffff;
+    padding-top: 24px;
+}
+
+.hr-1,
+.hr-2 {
+    width: .5px;
+    height: 90px;
+    background-color: #BFBFBF;
+}
+
+
+/*------------------------------
+   Section-4 styles start here
+------------------------------- */
+.section-4-banner {
+    position: absolute;
+    top: 1350px;
+    z-index: -1;
+    max-width: 100%;
+
+}
+
+.section-4-head {
+    text-align: center;
+    padding-top: 120px;
+    color: #ffff;
+}
+
+.section-4-head h1 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.section-4-head p {
+    font-size: 20px;
+    padding-bottom: 95px;
+}
+
+.research-desing-roadmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 120px;
+}
+
+.research {
+    max-width: 348px;
+    border: solid 1px #052846;
+    background-color: #052846;
+    padding: 16px 16px;
+    color: #fff;
+}
+
+.research img {
+    width: 316px;
+}
+
+.research h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.research p {
+    font-size: 18px;
+}
+
+.desing {
+    position: relative;
+    bottom: 50px;
+    max-width: 348px;
+    border: solid 1px #052846;
+    background-color: #052846;
+    padding: 16px 16px;
+    color: #fff;
+}
+
+.desing img {
+    width: 316px;
+}
+
+.desing h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.desing p {
+    font-size: 18px;
+}
+
+.roadmap {
+    max-width: 348px;
+    border: solid 1px #052846;
+    background-color: #052846;
+    padding: 16px 16px;
+    color: #fff;
+}
+
+.roadmap img {
+    width: 316px;
+}
+
+.roadmap h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.roadmap p {
+    font-size: 18px;
+}
+
+
+/*------------------------------
+   Section-4 styles end here
+------------------------------- */
+
+/* section-6 style srtat here */
+
+
+------------------------------ */ .section-6 {
+    background-color: #0A1A41;
+}
+
+.section-6-header {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.section-6-header p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #A8FE3B;
+    padding-bottom: 20px;
+}
+
+.section-6-header h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+
+.all-content {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+.section-6-content {
+    border: solid 1px #052746;
+    background-color: #052746;
+    margin-top: 40px;
+    max-width: 453px;
+}
+
+.section-6-content {
+    border: solid 1px #052746;
+    background-color: #052746;
+    margin-top: 40px;
+}
+
+.section-6-content img {
+    position: relative;
+    bottom: 35px;
+
+}
+
+.section-6-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+
+.section-6-content p {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.section-6-content i {
+    color: #FD8C02;
+    padding-bottom: 40px;
+}
+
+
+.rigth-left-btn {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+}
+
+
+.rigth-left-btn i {
+    padding: 14px 32px;
+    border: solid 1px #A8FE3B;
+    background-color: #A8FE3B;
+}
+
+#right-btn-s-6 {
+    position: relative;
+    right: 30px;
+}
+
+/* section-6 style end here */
+
+
+
+/*------------------------------
+   Section-5 styles start here
+------------------------------- */
+
+
+.section-5 {
+    max-width: 100%;
+    background-color: #052846;
+}
+
+.section-5-header {
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.section-5-header p {
+    color: #A8FE3B;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.section-5-header h1 {
+    width: 954px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.all-service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    padding-top: 42px;
+    padding-bottom: 120px;
+}
+
+
+
+.Services-content {
+    max-width: 379px;
+    text-align: center;
+    color: #fff;
+    padding: 38px 44px;
+    border: solid 1px #00113B;
+    background-color: #00113B;
+
+}
+
+.Services-content img {
+    max-width: 116px;
+}
+
+
+.Services-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 16px;
+
+}
+
+.Services-content p {
+    font-size: 18px;
+    color: #BFBFBF;
+    padding-bottom: 40px;
+}
+
+#section-5-arrow {
+    padding: 18px;
+    border: solid 1px #BFBFBF;
+    background-color: #BFBFBF;
+    border-radius: 28px;
+    color: #444444;
+}
+
+
+
+/*------------------------------
+   Section-5 styles end here
+------------------------------- */
+
+/*------------------------------
+   Section-7 styles start here
+------------------------------- */
+
+.all-items {
+    display: flex;
+    gap: 54px;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #fff;
+    padding-top: 99px;
+    padding-bottom: 90px;
+}
+
+.footer-logo {
+    max-width: 37px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 10px;
+    background-color: #A8FE3B;
+    color: black;
+}
+
+.first-line p {
+    max-width: 506px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.first-line input {
+    padding: 10px 30px;
+    border: solid 1px #BFBFBF;
+    background-color: #00113B;
+    color: #fff;
+}
+
+.our-office {
+    text-align: center;
+    max-width: 324px;
+}
+
+.our-office img {
+    padding-top: 40px;
+}
+
+.contact {
+    text-align: start;
+}
+
+.contact p {
+    padding-top: 40px;
+}
+
+.section-7-banner {
+    position: absolute;
+    max-width: 100%;
+    z-index: -1;
+}
+
+.last-hr {
+    max-width: 100%;
+    height: .3px;
+    background-color: #BFBFBF;
+}
+
+/* FOOTER STYLE START HERE */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Agency h6 {
+    font-size: 18px;
+    color: #BFBFBF;
+}
+
+.all-ancor a {
+    padding-right: 48px;
+    font-size: 16px;
+    color: #BFBFBF;
+    text-decoration: none;
+}
+
+
+.footer-icons i {
+    padding-left: 15px;
+    color: #fff;
+    font-size: 25px;
+}
+
+#inter-your-email {
+    visibility: visible;
+}
+
+/* FOOTER STYLE END HERE */
+
+
+
+/*------------------------------
+   Section-7 styles end here
+------------------------------- */
+
+
+
+
+/* project-info end */
+
+/* -----------------------
+   Responsiv For Tablet
+-------------------------- */
+
+@media screen and (max-width: 992px) {
+
+
+    /* Nav-section start*/
+
+    .nav-section {
+        display: none;
+    }
+
+    /* Nav only tablet responsiv start*/
+
+    .nav_only_tablet {
+        display: block;
+    }
+
+    .nav_tablet_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .nav_tablet_logo h2 {
+        padding: 5px 9px;
+        background-color: #A8FE3B;
+        color: black;
+    }
+
+    .nav_tablet_link {
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav_tablet_link a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .nav_tablet_btn p {
+        padding: 10px 20px;
+        border: solid 1px #A8FE3B;
+        background-color: #A8FE3B;
+        color: black;
+        font-weight: 500;
+    }
+
+    .first_hr_line {
+        background-color: #232c52;
+    }
+
+
+
+
+    /* Nav only tablet responsiv start*/
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 400;
+        transition: .3s all;
+
+    }
+
+    nav a:hover {
+        color: #eb4d4b;
+    }
+
+
+    input {
+        display: none;
+    }
+
+    .ui-btn p {
+        padding: 12px 24px;
+        border: solid 1px #A8FE3B;
+        background-color: #A8FE3B;
+        color: #000;
+        font-size: 18px;
+    }
+
+
+    .ui-btn p {
+        padding: 12px 24px;
+        border: solid 1px #A8FE3B;
+        background-color: #A8FE3B;
+        color: #000;
+        font-size: 18px;
+    }
+
+
+
+    /* Nav-section end*/
+
+    /* hero-section-1 start */
+
+
+    .main-header {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.15625em;
+    }
+
+    .hero-p {
+        font-size: 18px;
+    }
+
+    #color-arrow {
+        right: 430px;
+    }
+
+    #white-arrow {
+        right: 190px;
+
+    }
+
+    .card img {
+        width: 200px;
+        min-height: 580px;
+    }
+
+    .animation-1 img {
+        display: none;
+
+    }
+
+    .animation-2 img {
+        display: none;
+
+    }
+
+    .slider_wrapper {
+        overflow: hidden;
+    }
+
+    .hero_slider .card img {
+        max-width: 100%;
+        min-height: 248px;
+    }
+
+
+
+    /* hero-section-1 end */
+
+
+    .research-desing-roadmap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 120px;
+    }
+
+    .research {
+        max-width: 230px;
+        border: solid 1px #052846;
+        background-color: #052846;
+        padding: 16px 16px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .research img {
+        width: 180px;
+    }
+
+    .research h3 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+
+    .research p {
+        font-size: 18px;
+    }
+
+    .desing {
+        position: relative;
+        bottom: 30px;
+        max-width: 230px;
+        border: solid 1px #052846;
+        background-color: #052846;
+        padding: 16px 16px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .desing img {
+        width: 180px;
+    }
+
+    .desing h3 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+
+    .desing p {
+        font-size: 18px;
+    }
+
+    .roadmap {
+        max-width: 230px;
+        border: solid 1px #052846;
+        background-color: #052846;
+        padding: 16px 16px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .roadmap img {
+        width: 180px;
+    }
+
+    .roadmap h3 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+
+    .roadmap p {
+        font-size: 18px;
+    }
+
+
+    /* section-5 style start here */
+
+    .all-service {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-5-header h1 {
+        max-width: 700px;
+        font-size: 42px;
+    }
+
+    /* section-5 style end here */
+
+
+
+    /* section-6 style start here */
+
+    .testimonial .card img {
+        max-width: 400px;
+        min-height: 0px;
+    }
+
+
+    .testimonial .section-6-content img {
+        max-width: 100px;
+    }
+
+
+    .rigth-left-btn {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+
+
+    /* section-6 style end here */
+
+    /* FOOTER */
+
+    .all-items {
+        display: none;
+
+    }
+
+
+    /* FOOTER STYLE START HERE */
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Agency h6 {
+        font-size: 10px;
+        color: #BFBFBF;
+    }
+
+    .all-ancor a {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+
+    .footer-icons i {
+        padding-left: 15px;
+        font-size: 15px;
+    }
+
+
+    /* FOOTER STYLE END HERE */
+
+
+
+
+}
+
+/* ---------------------------
+   Responsiv For smartphone
+----------------------------- */
+
+@media screen and (max-width: 767px) {
+
+    /* Nav section start */
+
+    .nav-section {
+        display: block;
+    }
+
+    .nav_only_tablet {
+        display: none;
+    }
+
+
+    .logo h1 {
+        left: 10%;
+        top: 23%;
+        padding: 3px 9px;
+    }
+
+
+    nav {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background-color: #00113bd8;
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 0;
+        justify-content: flex-start;
+        gap: 37px;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    nav a:nth-child(1) {
+        margin-top: 50px;
+    }
+
+    label {
+        width: 45px;
+        height: 30px;
+        position: relative;
+    }
+
+    label div {
+        width: 100%;
+        height: 5px;
+        background-color: #fff;
+        position: absolute;
+        border: 99px;
+        transform: translate(-50%);
+        transition: 0.3s;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    label div:nth-child(1) {
+        top: 0;
+    }
+
+    label div:nth-child(2) {
+        top: 50%;
+    }
+
+    label div:nth-child(1) {
+        top: 100%;
+    }
+
+
+    input:checked+header nav {
+
+        height: 100vh;
+    }
+
+    input:checked+header label div:nth-child(1) {
+        transform: rotate(45deg);
+        top: 50%;
+    }
+
+    input:checked+header label div:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 50%;
+    }
+
+    input:checked+header label div:nth-child(2) {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+
+    /* Nav section end */
+
+
+    .start {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .demo {
+        padding: 10px 17px;
+        font-size: 16px;
+    }
+
+
+    #color-arrow {
+        display: none;
+    }
+
+    #white-arrow {
+        display: none;
+
+    }
+
+
+
+
+    /* project-info style start here */
+
+    .project-rate {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .first h1 {
+        font-size: 36px;
+    }
+
+    .first p {
+        font-size: 15px;
+    }
+
+    .second h1 {
+        font-size: 36px;
+    }
+
+    .second p {
+        font-size: 16px;
+    }
+
+    .thard h1 {
+        font-size: 36px;
+    }
+
+    .thard p {
+        font-size: 16px;
+    }
+
+
+    /* project-info style end here */
+
+
+    /* section 4 responsiv start*/
+
+
+    .research-desing-roadmap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 0px;
+    }
+
+    .research {
+        max-width: 348px;
+
+    }
+
+    .research img {
+        width: 316px;
+    }
+
+    .desing {
+
+        bottom: 0px;
+        max-width: 348px;
+
+    }
+
+    .desing img {
+        width: 316px;
+    }
+
+    .roadmap {
+        max-width: 348px;
+
+    }
+
+    .roadmap img {
+        width: 316px;
+    }
+
+
+    /* section-5 style start here */
+
+    .all-service {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-5-header {
+        text-align: center;
+        padding-top: 40px;
+
+    }
+
+    .section-5-header h1 {
+        max-width: 300px;
+        font-size: 35px;
+
+
+    }
+
+    /* section-5 style end here */
+
+
+
+
+
+    /* section-6 style start here */
+
+
+    .section-6-header p {
+        font-size: 18px;
+
+
+    }
+
+    .section-6-header h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #ffff;
+    }
+
+
+
+
+
+    .testimonial .card img {
+        max-width: 100%;
+    }
+
+
+    .testimonial .section-6-content img {
+        max-width: 116px;
+    }
+
+
+    /* section-6 style end here */
+
+    /* FOOTER STYLE START HERE */
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Agency h6 {
+        font-size: 10px;
+        color: #BFBFBF;
+        padding-bottom: 10px;
+    }
+
+    .all-ancor a {
+        text-align: center;
+        padding-right: 0px;
+        font-size: 12px;
+
+    }
+
+
+    .footer-icons i {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+
+    /* FOOTER STYLE END HERE */
+
+
+}
